@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/heroesFragment">
+
+    <fragment
+        android:id="@+id/heroesFragment"
+        android:name="com.example.heroes.ui.heroes.HeroesFragment"
+        android:label="Search Heroes"
+        tools:layout="@layout/heroes_main"/>
+</navigation>
